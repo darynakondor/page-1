@@ -124,7 +124,16 @@ video {
 
 @media (max-width: 474.98px) {
     .animate-me {
-        font-size: .7em;
+        font-size: 1em;
+        letter-spacing: 4px;
+        line-height: 40px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 389.98px) {
+    .animate-me {
+        font-size: .75em;
         letter-spacing: 4px;
         line-height: 40px;
         font-weight: bold;
