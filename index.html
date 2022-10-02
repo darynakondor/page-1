@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers' Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+  <video src="Slow Motion  Замедленная съемка цветная краска в воде (потрясающее видео).mp4" autoplay muted></video>
+  <section class="section">
+    <div class="animate-me">
+      <span class="anim">h</span>
+      <span class="anim">a</span>
+      <span class="anim">p</span>
+      <span class="anim">p</span>
+      <span class="anim">y</span>
+      <br>
+      <span class="anim">t</span>
+      <span class="anim">e</span>
+      <span class="anim">a</span>
+      <span class="anim">c</span>
+      <span class="anim">h</span>
+      <span class="anim">e</span>
+      <span class="anim">r</span>
+      <span class="anim">s'</span>
+      <br>
+      <span class="anim">d</span>
+      <span class="anim">a</span>
+      <span class="anim">y</span>
+    </div>   
+  </section>
+  <script src="anime.min.js"></script>
+  <script>
+    anime({
+      targets: '.animate-me',
+      scale: [
+        {value: .1, easing: 'easeOutSine', duration: 500},
+        {value: 1, easing: 'easeInOutQuad', duration: 5000}
+      ],
+      delay: anime.stagger(200, {grid: [14, 5], from: 'center'})
+    });
+  </script>
+</body>
+</html>
